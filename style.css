@@ -1,0 +1,821 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#app{
+    height: 100%;
+    width: 100%;
+}
+#container-1{
+    height: 90vh;
+    width:100%;
+    background-color:rgb(36, 125, 161) ;
+    display: flex;
+}
+#navbar{
+    height: 10vh;
+    width: 100%;
+    background-color:rgb(36, 125, 161) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+#navbar h1{
+    font-size: 3vw;
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-left: 40px;
+}
+#navbar #options{
+    display: flex;
+   gap:5vw;
+   color:white;
+   border: 1px solid white;
+   padding: 1vw 5vw;
+    border-radius: 30px;
+}
+ #options , a :hover{
+    cursor: pointer;
+
+}
+ #btn-1{
+    margin-right: 20px;
+    padding: 1.2vh;
+    font-size: 1.2vw;
+border: none;
+border-radius: 20px;
+ background-color: white ;
+ color: black;
+ font-weight: 600;
+}
+#btn-1:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    background-color:white;
+    color:black;
+
+}
+#container-1 #left{
+    height: 100%;
+    width: 50%;
+    
+    
+}
+#container-1 #right{
+    height: 100%;
+    width: 50%;
+    
+}
+
+#left #p-1{
+    font-size: 5vw;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-top: 20vh;
+    margin-left: 5vw;
+}
+#left #p-2{
+    font-size: 1.5vw;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-top: 5vh;
+    margin-left: 5vw;
+text-align: left;
+}   
+#left #p-3{
+    font-size: 1.5vw;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 400;
+    margin-top: 2vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+hr{
+margin-left: 5vw;
+margin-right: 5vw;
+margin-top: 2vw;
+line-height: 0;
+}
+#buttons-1{
+    display: flex;
+    gap: 2vw;
+    margin-left: 5vw;
+    position: absolute;
+margin-top: 2vw;
+}
+#buttons-1 .btn{
+    padding: 1.1vh;
+    font-size: 1.2vw;
+}
+#btn-2{
+    border: none;
+    border-radius: 20px;
+     background-color: white;
+    
+     font-weight: 600;
+}
+#btn-3{
+    border: none;
+    background: transparent;
+    
+     color:white;
+     font-weight: 600;
+}
+#btn-2:hover {
+    cursor: pointer;
+    transition: 0.5s;
+   
+
+}
+#btn-3:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    
+   
+}
+#right {
+    background-image: url('./images/perfume-1.png');
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+@media (max-width: 600px) {
+    #navbar{
+    
+        height: 5vh;
+    
+    }
+    #navbar h1{
+        font-size: 4vw;
+        margin-left: 10px;
+        font-weight: 700;
+    }
+    #navbar #options{
+        gap:3vw;
+        font-size:2vw ;
+    }
+
+    #btn-1{
+        margin-right: 10px;
+        padding: 0.6vh;
+        font-size: 2vw;
+    }
+    #container-1{
+        height: 50vh;
+        display: flex;
+        width:100%;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    #container-1 #left{
+         width: 50%;
+         height: 100%;
+         justify-content: center;
+        
+         align-content: center;
+  flex-wrap: wrap;
+    }
+    #container-1 #left #p-1{
+        font-size: 8vw;
+        margin-top: 5vh;
+        margin-left: 5vw;
+    }
+    #container-1 #left #p-2{
+        font-size: 4vw;
+        margin-top: 2vh;
+        margin-left: 5vw;
+    }
+    #container-1 #left #p-3{
+        font-size: 3vw;
+        margin-top: 1vh;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    #buttons-1{
+        
+       visibility: hidden;
+    }
+    #buttons-1 .btn{
+        padding: 1.5vh;
+        font-size: 3vw;
+    }
+    #btn-2{
+        border: none;
+        border-radius: 20px;
+         background-color: white;
+        
+         font-weight: 600;
+    }
+    #btn-3{
+        border: none;
+        background: transparent;
+        
+         color:white;
+         font-weight: 600;
+    }
+    #container-1 #right{
+       width: 50%;
+        height: 50%;
+    
+       
+    
+        
+    }
+}
+#container-2{
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(245, 238, 229);
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+
+    
+}
+#container-2 .perfume{
+    height: 100%;
+    width: 100%;
+    
+    margin-left: 20px;
+    margin-right: 20px;
+   
+    
+    align-items: center;
+    margin-top: 20px;
+
+}
+ #f1{
+    background-image: url('./images/perfume-2.png');
+    background-size: cover;
+    background-position: center;
+    height: 70%;
+    width: 100%;
+   
+
+}
+#perfume-1 h1{
+    font-size: 3vw;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-top: 2vh;
+    text-align: center;
+
+}
+#perfume-1 p{
+    font-size: 1vw;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 400;
+    margin-top: 1vh;
+    text-align: center;
+
+}
+#f2{
+    background-image: url('./images/perfume-3.png');
+    background-size: cover;
+    background-position: center;
+   
+      height: 70%;
+    width: 100%;
+    
+   
+}
+#perfume-2 h1{
+    font-size: 3vw;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-top: 2vh;
+    text-align: center;
+
+}
+#perfume-2 p{
+    font-size: 1vw;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 400;
+    margin-top: 1vh;
+    text-align: center;
+
+}
+#f3{
+    background-image: url('./images/perfume-4.png');
+    background-size: cover;
+    background-position: center;
+      height: 70%;
+    width: 100%;
+    
+   
+}
+#perfume-3 h1{
+    font-size: 3vw;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-top: 2vh;
+    text-align: center;
+
+}
+#perfume-3 p{
+    font-size: 1vw;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 400;
+    margin-top: 1vh;
+    text-align: center;
+
+}
+@media(max-width:600px){
+    #container-2{
+        height: 40vh;
+        width: 100%;
+        background-color: rgb(245, 238, 229);
+        display: flex;
+    
+    
+    
+    
+        align-items: center;
+        gap: 20px;
+        
+        
+    
+        
+    }
+    #container-2 .perfume{
+        height: 50%;
+        width: 70%;
+        
+        margin-left: 10px;
+        margin-right: 10px;
+       
+        
+        align-items: center;
+        
+    
+    }
+    #f1{
+        height: 100%;
+        width: 100%;
+    }
+    #perfume-1 h1{
+        font-size: 3vw;
+        margin-top: 1vh;
+    }
+    #perfume-1 p{
+        font-size: 1vw;
+        margin-top: 1vh;
+    }
+    #f2{
+        height: 100%;
+        width: 100%;
+    }
+    #perfume-2 h1{
+        font-size: 3vw;
+        margin-top: 1vh;
+    }
+    #perfume-2 p{
+        font-size: 1vw;
+        margin-top: 1vh;
+    }
+    #f3{
+        height: 100%;
+        width: 100%;
+    }
+    #perfume-3 h1{
+        font-size: 3vw;
+        margin-top: 1vh;
+    }
+    #perfume-3 p{
+        font-size: 1vw;
+        margin-top: 1vh;
+    }
+} 
+#container-3{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(36, 125, 161);
+    display: flex;
+    
+    align-items: center;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+   
+}
+#perfume-5{
+    background-image: url("./images/versace-1.png");
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+    width: 70%;
+    margin: 4vw;
+    transform: rotate(-7deg);
+}
+#para{
+    height: 100%;
+    display: inline-block;
+    
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-top: 100px;
+}
+#para h1{
+    font-size: 4vw;
+    font-weight: 600;
+    text-align: center;
+}
+#para p{
+    font-size: 1.5vw;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 2vh;
+}
+#para button{
+    margin-top: 3vh;
+    padding: 1.2vh 2vw;
+    font-size: 1.2vw;
+    border: none;
+    border-radius: 20px;
+     background-color: white ;
+     color: black;
+     font-weight: 600;
+    margin-left: 130px;
+}
+#para button:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    background-color:white;
+    color:black;
+
+}
+#container-3 #perfume-6{
+    background-image: url("./images/versace-2.png");
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+    width: 70%;
+    margin: 4vw;
+
+}
+ @media (max-width:600px){
+    #container-3{
+      width: 100%;
+      height: 30vh;
+    }
+    #perfume-5{
+        height: 40%;
+        width: 70%;
+        
+    }
+    #para{
+        height: 70%;
+        width:100%;
+        margin-bottom: 20vw;
+    }
+    #para h1{
+        font-size: 4vw;
+        
+    }
+    #para p{
+        font-size: 2vw;
+        
+    
+    }
+    #para button{
+        margin-top: 2vh;
+        margin-left: 6vw;
+        font-size: 3vw;
+        
+    }
+    #container-3 #perfume-6{
+        height: 40%;
+        width: 70%;
+        
+    }
+}
+#content-4{
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(245, 238, 229);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+#top-1{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(245, 238, 229);
+    display: flex;
+    padding: 5vw;
+    justify-content: center;
+    align-items: center;
+}
+#left-1{
+    height: 100%;
+    width: 40%;
+    background-image: url('./images/versace-3.png');
+    background-size: cover;
+    background-position: center;
+    
+}
+#right-1{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    text-align: left;
+    padding: 5vw;
+}
+#right-1 h5{
+    background-color: rgb(210, 205, 205);
+    padding: 1vw 2vw;
+    border-radius: 20px;
+    text-align: left;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+#right-1 h1{
+    font-weight: 500;
+    text-align: left;
+    
+
+}
+#right-1 p{
+    border-bottom: 1px solid black;
+    font-size: 1.4vw;
+    font-weight: 300;
+    font-style: normal;
+    font-family:'Times New Roman', Times, serif;
+    padding-bottom: 2vw;
+}
+ #button-section{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2vw;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+#button-section p{
+    border-bottom: 0;
+    font-weight: 700;
+    font-size: 2vw;
+}
+
+#button-section #btn-4{
+    
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border-radius: 20px;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    font-size: 1vw;
+    border: none;
+    color: white;
+    background-color: rgb(36, 125, 161);
+}
+ #btn-4 :hover{
+    cursor: pointer;
+}
+@media(max-width:600px){
+    #content-4{
+        height: 40vh;
+        width: 100%;
+    }
+    #top-1{
+        height: 100%;
+        width: 100%;
+        padding: 4vw;
+    }
+    #left-1{
+        height: 60%;
+        width: 50%;
+    }
+    #right-1{
+        height: 60%;
+        width: 50%;
+        padding: 2vw;
+    }
+    #right-1 h5{
+        font-size: 2vw;
+        padding: 1vw;
+        margin-bottom: 10px;
+    }
+    #right-1 h1{
+        font-size: 4vw;
+        font-weight: 500;
+        text-align: left;
+        
+    
+    }
+    #right-1 p{
+        font-size: 2vw;
+        padding-bottom: 1vw;
+    }
+     #button-section{
+    
+        gap: 10px;
+        align-items: flex-start;
+     }
+     #button-section p{
+        font-size: 3vw;
+     }
+     #button-section #btn-4{
+        font-size: 2vw;
+        padding: 1vw;
+     }
+     #btn-4 :hover{
+        cursor: pointer;
+}
+}
+#content-5{
+   height: 60vh;
+   width:100%;
+   background-color: rgb(36, 125, 161);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vw;
+   
+}
+#content-5 #top-2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: rgb(36, 125, 161);
+    padding: 3vw;
+    gap:20px;
+}
+#top-2 #left{
+height: 100%;
+width: 70%;
+}
+#top-2 #left h1{
+    color:white;
+    font-size: 4vw;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+#top-2 #left p{
+    color:white;
+    width: 80%;
+}
+#top-2 #left #email{
+width: 70%;
+height: 4vh;
+margin-top: 8vh;
+gap:0;
+align-items: center;
+display: flex;
+justify-content: center;
+background-color: white;
+border-radius: 50px;
+padding: 1vw;
+gap:5px
+}
+#top-2 #left #email input{
+    width: 80%;
+    border: none;
+    height: 6vh;
+    border-radius: 30px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background: transparent;
+    font-size: 2vw;
+}
+#top-2 #left #email button{
+    background-color:  rgb(36, 125, 161);
+    padding:1vw;
+    border: none;
+    border-radius: 50px;
+    color:white
+}
+
+#top-2 #right{
+
+background-image: url("./images/versace-4.png");
+background-size: cover;
+background-position: center;
+height: 100%;
+width: 30%;
+}
+@media (max-width:600px){
+    #content-5{
+        height: 20vh;
+        width: 100%;
+    }
+    #content #top-2{
+        height: 100%;
+        width: 100%;
+    }
+    #content #top-2 #left{
+        width:50%;
+        height: 100%;
+    }
+    #top-2 #left h1{
+    color:white;
+    font-size: 5vw;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+#top-2 #left p{
+    color:white;
+    width: 80%;
+    font-size: 2vw;
+}
+#top-2 #left #email{
+width: 70%;
+height: 2.2vh;
+margin-top: 3vh;
+gap:0;
+align-items: center;
+display: flex;
+justify-content: center;
+background-color: white;
+border-radius: 50px;
+padding: 1vw;
+gap:5px
+}
+#top-2 #left #email input{
+    width: 80%;
+    border: none;
+    height: 5vh;
+    border-radius: 30px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background: transparent;
+    font-size: 2vw;
+}
+#top-2 #left #email button{
+    background-color:  rgb(36, 125, 161);
+    padding:1vw;
+    border: none;
+    border-radius: 50px;
+    color:white;
+    font-size: 2vw;
+}
+
+#top-2 #right{
+
+
+height: 100%;
+width: 50%;
+}
+}
+#bottom-1{
+    background-color:rgb(36, 125, 161);
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top:5vw;
+    color: white;
+}
+#bottom-1 .footer{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    font-size: 1.5vw;
+}
+.footer .small-icons{
+    display: flex;
+    
+}
+@media (max-width:600px){
+#bottom-1{
+    height: 15vh;
+    width: 100%;
+    margin-top: 10px;
+}
+#bottom-1 .footer{
+    font-size: 2.2vw;
+    height: 50%;
+    width:50%;
+    gap:10px;
+    align-content: center;
+    text-align: center;
+}
+
+}
