@@ -141,7 +141,7 @@ margin-top: 2vw;
    
 }
 #right {
-    background-image: url('./images/perfume-1.png');
+    background-image: url('./images/perfume-1.webp');
     background-size: cover;
     background-position: center;
     
@@ -259,7 +259,7 @@ margin-top: 2vw;
 
 }
  #f1{
-    background-image: url('./images/perfume-2.png');
+    background-image: url('./images/perfume-2.webp');
     background-size: cover;
     background-position: center;
     height: 70%;
@@ -286,7 +286,7 @@ margin-top: 2vw;
 
 }
 #f2{
-    background-image: url('./images/perfume-3.png');
+    background-image: url('./images/perfume-3.webp');
     background-size: cover;
     background-position: center;
    
@@ -314,7 +314,7 @@ margin-top: 2vw;
 
 }
 #f3{
-    background-image: url('./images/perfume-4.png');
+    background-image: url('./images/perfume-4.webp');
     background-size: cover;
     background-position: center;
       height: 70%;
@@ -418,7 +418,7 @@ margin-top: 2vw;
    
 }
 #perfume-5{
-    background-image: url("./images/versace-1.png");
+    background-image: url("./images/versace-1.webp");
     background-size: cover;
     background-position: center;
     height: 60%;
@@ -715,7 +715,7 @@ gap:5px
 
 #top-2 #right{
 
-background-image: url("./images/versace-4.png");
+background-image: url("./images/versace-4.webp");
 background-size: cover;
 background-position: center;
 height: 100%;
@@ -810,7 +810,7 @@ width: 50%;
     margin-top: 10px;
 }
 #bottom-1 .footer{
-    font-size: 2.2vw;
+    font-size: webpvw;
     height: 50%;
     width:50%;
     gap:10px;
