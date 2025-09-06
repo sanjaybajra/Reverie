@@ -1,3 +1,7 @@
+@font-face {
+    font-family:buttermilk ;
+    src: url(./buttermilk.zip);
+}
 *{
     padding: 0;
     margin: 0;
@@ -26,7 +30,7 @@
 #navbar h1{
     font-size: 3vw;
     color:white;
-    font-family:'Times New Roman', Times, serif;
+    font-family:buttermilk;
     font-weight: 500;
     margin-left: 40px;
 }
@@ -74,7 +78,7 @@ border-radius: 20px;
 #left #p-1{
     font-size: 5vw;
     color: white;
-    font-family:'Times New Roman', Times, serif;
+    font-family:buttermilk;
     font-weight: 500;
     margin-top: 20vh;
     margin-left: 5vw;
@@ -91,7 +95,7 @@ text-align: left;
 #left #p-3{
     font-size: 1.5vw;
     color: white;
-    font-family:'Times New Roman', Times, serif;
+    font-family:buttermilk;
     font-weight: 400;
     margin-top: 2vh;
     margin-left: 5vw;
@@ -270,7 +274,7 @@ margin-top: 2vw;
 #perfume-1 h1{
     font-size: 3vw;
     color: black;
-    font-family:'Times New Roman', Times, serif;
+    font-family:buttermilk;
     font-weight: 500;
     margin-top: 2vh;
     text-align: center;
@@ -279,7 +283,7 @@ margin-top: 2vw;
 #perfume-1 p{
     font-size: 1vw;
     color: black;
-    font-family:'Times New Roman', Times, serif;
+    font-family:buttermilk;
     font-weight: 400;
     margin-top: 1vh;
     text-align: center;
@@ -298,7 +302,7 @@ margin-top: 2vw;
 #perfume-2 h1{
     font-size: 3vw;
     color: black;
-    font-family:'Times New Roman', Times, serif;
+    font-family:buttermilk;
     font-weight: 500;
     margin-top: 2vh;
     text-align: center;
@@ -307,7 +311,7 @@ margin-top: 2vw;
 #perfume-2 p{
     font-size: 1vw;
     color: black;
-    font-family:'Times New Roman', Times, serif;
+    font-family:buttermilk;
     font-weight: 400;
     margin-top: 1vh;
     text-align: center;
@@ -334,7 +338,7 @@ margin-top: 2vw;
 #perfume-3 p{
     font-size: 1vw;
     color: black;
-    font-family:'Times New Roman', Times, serif;
+    font-family:buttermilk;
     font-weight: 400;
     margin-top: 1vh;
     text-align: center;
@@ -414,7 +418,7 @@ margin-top: 2vw;
     
     align-items: center;
     color: white;
-    font-family:'Times New Roman', Times, serif;
+    font-family:buttermilk;
    
 }
 #perfume-5{
@@ -566,7 +570,7 @@ margin-top: 2vw;
     font-size: 1.4vw;
     font-weight: 300;
     font-style: normal;
-    font-family:'Times New Roman', Times, serif;
+    font-family:buttermilk;
     padding-bottom: 2vw;
 }
  #button-section{
@@ -675,7 +679,7 @@ width: 70%;
 #top-2 #left h1{
     color:white;
     font-size: 4vw;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:buttermilkgit;
     font-weight: 600;
 }
 #top-2 #left p{
@@ -737,7 +741,7 @@ width: 30%;
     #top-2 #left h1{
     color:white;
     font-size: 5vw;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: buttermilkgit
     font-weight: 600;
 }
 #top-2 #left p{
